@@ -13,8 +13,6 @@ class AdminController
 
         isAdmin();
 
-
-
         $fecha = $_GET['fecha'] ?? date('Y-m-d'); //Toma la fecha del GET, caso contrario (??) toma la fecha del servidor
 
         $fechas = explode('-', $fecha); //Separa la var fecha (string) por el caracter:- y lo convierte en un array de 3 posiciones.
